@@ -1,0 +1,118 @@
+@import '~bulma/sass/utilities/initial-variables.sass';
+
+
+$yellow: #666666;
+$green: #666666;
+$turquoise: #666666;
+$blue: #666666;
+$purple: #666666;
+$red: #666666;
+$info: #666666;
+
+$link: #ecb7b7;
+$link-strong: lighten($link, 10);
+$link-invert: #181818;
+
+$primary: #a0265f;
+$primary-front: lighten($primary, 5);
+
+$front-strong: #fff9f9;
+$front: #cccccc;
+$front-ter: #aaaaaa;
+
+$middle: #888888;
+$middle-back: #666666;
+
+$back-ter: #2b2b2b;
+$back: #1a1a1a;
+
+
+
+$subtitle-color: $front;
+
+$border: $middle;
+
+$body-background-color: $back;
+
+$background: $back;
+$footer-background-color: $back;
+$button-background-color: $back;
+$button-border-color: $back-ter;
+
+$title-color: $front-strong;
+$subtitle-color: $front;
+$subtitle-strong-color: $front;
+
+$text: $front;
+// $text-light: lighten($text, 10);
+// $text-dark: darken($text, 5);
+$text-strong: $front-strong;
+
+$box-color: $front;
+$box-background-color: $back-ter;
+$box-shadow: none;
+
+$link-hover: $link-strong;
+$link-focus: $link-strong;
+$link-active: $link-strong;
+$link-focus-border: $link-strong;
+
+$button-background-color: $middle-back;
+$button-color: $front-strong;
+$button-hover-color: $front; 
+$button-focus: $front; 
+$button-active-color: $front; 
+$button-disabled-color: $front;
+$button-disabled-background-color: $back-ter;
+$button-static-background-color: $middle-back;
+$button-static-color: $front-strong;
+
+$input-hover-color: $front;
+$input-disabled-background-color: $back-ter;
+$input-disabled-border: $front-ter;
+
+$table-color: $front;
+$table-head: $front;
+$table-background-color: $back-ter;
+$table-cell-border: 1px solid $middle-back;
+
+$table-row-hover-background-color: $middle-back;
+$table-striped-row-even-background-color: $middle-back;
+$table-striped-row-even-hover-background-color: $middle;
+
+$pagination-color: $link;
+// $pagination-border-color: $border;
+$pagination-disabled-background-color: $middle-back;
+$pagination-disabled-color: $front-ter;
+
+
+$navbar-background-color: $primary;
+$navbar-item-color: $front;
+$navbar-item-hover-color: $link;
+$navbar-item-hover-background-color: transparent;
+$navbar-item-active-color: $front-strong;
+$navbar-dropdown-arrow: $front-strong;
+$navbar-divider-background-color: $back-ter;
+$navbar-dropdown-border-top: 1px solid $back-ter;
+$navbar-dropdown-background-color: $primary;
+$navbar-dropdown-item-hover-color: $link;
+$navbar-dropdown-item-hover-background-color: transparent;
+$navbar-dropdown-item-active-background-color: transparent;
+// $navbar-dropdown-item-active-color: $link;
+
+$dropdown-content-background-color: $back;
+$dropdown-item-color: $front;
+
+// $progress-value-background-color: $grey-lighter;
+
+$input-color: $front;
+$input-background-color: transparent;
+$input-disabled-background-color: $back-ter;
+
+
+$navbar-height: 4rem;
+
+$scheme-main: $back-ter;
+$card-background-color: $back-ter;
+
+$label-color: $front;

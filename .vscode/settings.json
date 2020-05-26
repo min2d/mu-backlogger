@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "*.vue": "vue"
+    },
+    "emmet.includeLanguages": {
+        "vue": "html"
+    },
+    "editor.tabSize": 2,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#45887d"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "vetur.validation.template": false,
+
+}

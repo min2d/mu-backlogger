@@ -1,0 +1,9 @@
+// $primary: rgb(99, 186, 189); // variables系はbulmaより前
+$desktop: 0; // レスポンシブを無効にする
+$tablet: 0; // レスポンシブを無効にする
+
+@import "./variables";
+@import "~bulma"; //デフォルトのbulma
+@import "./overrides";
+
+@import "~buefy/src/scss/buefy"; //buefy特有の配置などが変わるものはこっち

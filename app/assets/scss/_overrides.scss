@@ -1,0 +1,5 @@
+@import './variables';
+select option{
+    background: transparent;
+    background-color: $background;
+}

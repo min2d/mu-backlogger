@@ -59,7 +59,7 @@ function _computed() {
         return this.$store.state.settings[str]
       },
       set(val) {
-        this.$store.commit('set' + str.charAt(0).toUpperCase() + str.slice(1), val)
+        this.$store.commit('settings/set' + str.charAt(0).toUpperCase() + str.slice(1), val)
       }
     }
     return map
